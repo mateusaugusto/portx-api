@@ -27,7 +27,9 @@ DELETE http://localhost:8086/payments/{id}
 ## How to
 
 Run tests: mvn clean test
+
 Compile: mvn clean compile
+
 Local install: mvn clean install
 
 ## Build and run Docker image
