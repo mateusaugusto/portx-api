@@ -68,6 +68,16 @@ Search payments by status
 curl --location --request GET 'http://localhost:8086/payments/search?status=CREATED' \
 --header 'Cookie: JSESSIONID=2276F21424EE7F8D7B4DF74414D51940'
 
+## Step by step to run the API and Client
+
+Run the api: docker-compose up
+
+Download the client APP: https://github.com/mateusaugusto/portx-client
+
+Local install: mvn clean install -DskipTests
+
+Run the client APP: mvn spring-boot:run
+
 ### Questions
 
 Our sales team tells us that some of the customers will be sending around 1 million payments per
